@@ -31,22 +31,46 @@ h3 {
   justify-content: center;
   align-content: space-between;
 }
-#design {
+.design {
   background-color: #E6563B;
 
 }
 
-#develop {
+.develop {
   background-color: #DE9F3D;
 }
 
-#support {
+.support {
   background-color: #7CB06C;
 }
 
-#host {
+.host {
   background-color: #00ABA9;
 }
 #text-center1 {
   padding-top: 33px;
+}
+
+.featured{
+  background: hotpink;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.featured-image {
+  border: solid 5px #E6E6E6;
+  border-radius: 2px;
+  flex-basis: 100%;
+}
+
+.circleLetter {
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+
+  text-align: center;
+  margin:0 5px;
+
 }
