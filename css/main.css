@@ -107,8 +107,28 @@ h5 {
     border-bottom: 3px #E6E6E6 solid;
   }
   .featured-boxes {
+
+    /*height: 244px;*/
+    /*width: 326px;*/
+    margin-top: 5em;
     flex-basis: 50%;
+    /*justify-content: center;*/
+
+  }
+  .mainFeaturedBox {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
   }
 
-
 }
+
+@media (min-width: 720px) {
+
+  .mainFeaturedBox {
+    /*margin: 0;*/
+  }
+}
+
+
+
