@@ -6,6 +6,24 @@
 body {
     background-color: #F0F0F0;
 }
+
+/*navbar*/
+
+#codeup-design{
+  text-align: center;
+}
+
+#list-view {
+  /*text-align: center;*/
+  padding:12px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background: hotpink;
+}
+
+/*navbar end*/
+
 h1 {
   font-family: "Anton", serif;
   font-size: 64px;
@@ -183,4 +201,6 @@ h5 {
     padding: 3em 7em;
   }
 }
+
+
 
