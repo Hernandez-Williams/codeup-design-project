@@ -72,15 +72,19 @@ h5 {
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-
   font-weight: 900;
   padding: 0;
 }
+
+
 
 .featured-image {
   border: solid 5px #E6E6E6;
   border-radius: 2px;
   flex-basis: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 .featured-text {
   display:flex;
@@ -116,18 +120,25 @@ h5 {
     padding-bottom: 10px;
     border-bottom: 3px #E6E6E6 solid;
   }
+
   .featured-boxes {
     /*height: 244px;*/
     /*width: 326px;*/
     margin-top: 3em;
     flex-basis: 50%;
+    background-color: blue;
     /*justify-content: center;*/
 
   }
+  .featured{
+    background-color: lime;
+  }
+
   .mainFeaturedBox {
     display: flex;
     justify-content: center;
     align-content: space-around;
+    background-color: hotpink;
   }
 
 }
