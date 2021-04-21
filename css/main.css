@@ -74,13 +74,19 @@ h5 {
   text-align: center;
 
   font-weight: 900;
-  padding: 0 80px;
+  padding: 0;
 }
 
 .featured-image {
   border: solid 5px #E6E6E6;
   border-radius: 2px;
   flex-basis: 100%;
+}
+.featured-text {
+  display:flex;
+  margin:0;
+  flex-basis: 100%;
+
 }
 
 .circleLetter {
@@ -93,6 +99,9 @@ h5 {
   font-size: 12px;
 
 }
+.featured-design {
+  margin-left: auto;
+}
 
 .circleLetter-center {
   font-family: "Anton", serif;
@@ -101,16 +110,16 @@ h5 {
   padding-left: 1px;
 }
 
+
 @media (min-width: 576px) {
   .circle-border {
     padding-bottom: 10px;
     border-bottom: 3px #E6E6E6 solid;
   }
   .featured-boxes {
-
     /*height: 244px;*/
     /*width: 326px;*/
-    margin-top: 5em;
+    margin-top: 3em;
     flex-basis: 50%;
     /*justify-content: center;*/
 
@@ -125,10 +134,42 @@ h5 {
 
 @media (min-width: 720px) {
 
-  .mainFeaturedBox {
-    /*margin: 0;*/
+  .the-last-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-content: space-between;*/
+  }
+  .the-last-bold {
+    font-family: "Anton", serif;
+    font-size: 20px;
+
+  }
+
+  .the-last-pic {
+    width: 64px;
+    height:56px;
+    margin-right: 15px;
+    border: solid 5px #E6E6E6;
+    border-radius: 2px;
+
+  }
+
+  .the-last-heading {
+    display: flex;
+  }
+  .twitter {
+    margin-right: 10px;
+    color: #1DA1F2;
+  }
+  .twitter-top {
+    margin-bottom: 10px;
   }
 }
 
-
+@media (min-width: 960px) {
+  body{
+    padding: 5em 7em;
+  }
+}
 
