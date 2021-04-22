@@ -186,21 +186,24 @@ h5 {
   .featured-boxes {
     /*height: 244px;*/
     /*width: 326px;*/
-    margin-top: 3em;
-    flex-basis: 50%;
-    background-color: blue;
+    margin-top: 0;
+    flex-basis: 15em;
+    /*background-color: blue;*/
     /*justify-content: center;*/
+
 
   }
   .featured{
-    background-color: lime;
+    /*background-color: lime;*/
+    margin:0;
   }
 
   .mainFeaturedBox {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: space-around;
-    background-color: hotpink;
+    /*background-color: hotpink;*/
+    padding-left: 2em;
   }
   /*navbar*/
   #nav-container {
@@ -260,17 +263,23 @@ h5 {
   .nav-work {
     margin-right: 7em;
   }
+  body{
+    padding: 0 3em
+  }
 
   /*navbar end*/
-
+  #SELECTED {
+    padding-left: 2em;
+  }
 }
 
 @media (min-width: 720px) {
 
+
   .the-last-text {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     /*align-content: space-between;*/
   }
   .the-last-bold {
@@ -280,8 +289,8 @@ h5 {
   }
 
   .the-last-pic {
-    width: 64px;
-    height:56px;
+    width: 90px;
+    height:74px;
     margin-right: 15px;
     border: solid 5px #E6E6E6;
     border-radius: 2px;
@@ -290,6 +299,7 @@ h5 {
 
   .the-last-heading {
     display: flex;
+    margin-top: 2em;
   }
   .twitter {
     margin-right: 10px;
@@ -298,6 +308,78 @@ h5 {
   .twitter-top {
     margin-bottom: 10px;
   }
+  /*navbar*/
+  #nav-container {
+    position: relative;
+    top:0;
+    right: 0;
+    left: 0;
+    margin-top: 6em;
+    margin-bottom: 5em;
+  }
+  #codeup-design{
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: -2em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 5em;
+    right: auto;
+    z-index: 10;
+
+  }
+  #nav-image {
+    width: 105px;
+    height:105px;
+    position: absolute;
+    top:-6em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 3em;
+    right: auto;
+
+
+  }
+  #nav-strip {
+    height:70px;
+    width: 100%;
+    position: absolute;
+    top:-5em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+
+  }
+  #list-view {
+    /*text-align: center;*/
+    padding:12px;
+    /*margin: 0;*/
+    display: flex;
+    justify-content: center;
+    /*background: hotpink;*/
+    font-size: 18px;
+    position: absolute;
+    top:-4em;
+    margin-left: auto;
+    /*margin-right: auto;*/
+    left: auto;
+    right: 0;
+
+
+    /*align-content: ;*/
+  }
+  .nav-work {
+    margin-right: 15px;
+  }
+  .nav-item {
+    margin: 0 15px;
+  }
+
+  /*navbar end*/
+
 }
 
 @media (min-width: 960px) {
